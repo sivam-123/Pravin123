@@ -1,0 +1,43 @@
+>Application is a collection of programms with dedicated functinality .and every application is platform dependent including java.
+Web Application(Shared application)
+ Stand-Alone application:
+  >Theses are the application present in our own computer and they are dedicated per user . eg pdf readers,media players
+ 
+ Web Apllication:
+  1.These application are not present in our computer but they are present in some other computer and our computer and other computer is network connected.
+  
+  J2EE:
+    >J2EE is a collection of api which helps us to develop enterprise web application.
+	>An api is a collection of packages with dedicated functinality.Major api of J2EE is JDBC ,Servlet,JSP.
+	>JDBC helps web application to intract with data base.
+	
+	Servlet:
+	  >Servlets or jsp get the request from browser generates the response and gives response back to browser.
+	  
+	>All the api of J2EE is based on java and java is platform independent so all are platform independent.  
+	
+JDBC(Java Database connectivity):
+   >Java databases connectivity is an api. 
+   >In the world of java .JDBC is the "one and only api" that helps us to intract with database application.   
+   >JDBC is DB independent ie using JDBC we can intract with any RDBMS application.
+   
+   Neccessary steps to work with jdbc :
+     1.Load the Driver
+	 2.Get the DB Connection via Driver.
+	 3.Issue Sql Query via collection
+	 4.Process the Results returned by sql queries.
+	 5.Close all JDBC Objects.
+	 
+   >"java.sql.*" is the package representation of JDBC.
+   >ie. any class/interface  belongs to this package it means it's a part of JDBC.
+   
+   Drivers:
+    >JDBC is Db independent whereas Driver is DB dependent.
+    >Drviers are additional software components required by JDBC to intract with RDBMS applications.
+     Drivers are provided by DB vendors and they are DB dependent that means using mysql driver we can only intract with mysql database and with DB2 driver we intract with DB2 RDBMS applications.
+	 
+	 
+	 
+	
+  
+  
